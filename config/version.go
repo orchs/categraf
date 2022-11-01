@@ -1,3 +1,3 @@
 package config
 
-var Version = "20221021"
+var Version = "20221101"
