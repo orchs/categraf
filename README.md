@@ -78,7 +78,7 @@ see detail [here](https://github.com/flashcatcloud/categraf/blob/main/prometheus
 
 ## Plugin
 
-plugin list: [https://github.com/flashcatcloud/categraf/tree/main/inputs](https://github.com/flashcatcloud/categraf/tree/main/inputs)
+plugin list and document: [https://github.com/flashcatcloud/categraf/tree/main/inputs](https://github.com/flashcatcloud/categraf/tree/main/inputs) 
 
 
 ## Thanks
@@ -87,4 +87,4 @@ Categraf is developed on the basis of Telegraf, Exporters and the OpenTelemetry.
 
 ## Community
 
-![](doc/laqun.jpeg)
+<img src="doc/laqun.jpeg" alt="categraf contact" width="240" />
