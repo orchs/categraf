@@ -6,6 +6,7 @@
 # username = ""
 # password = ""
 # pool_size = 2
+# db = 0
 
 # # Optional. Specify redis commands to retrieve values
 # commands = [

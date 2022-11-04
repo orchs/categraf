@@ -35,6 +35,7 @@ type Instance struct {
 	Password string    `toml:"password"`
 	PoolSize int       `toml:"pool_size"`
 	Commands []Command `toml:"commands"`
+	DB       int       `toml:"db"`
 
 	tls.ClientConfig
 	client *redis.Client
@@ -50,6 +51,7 @@ func (ins *Instance) Init() error {
 		Username: ins.Username,
 		Password: ins.Password,
 		PoolSize: ins.PoolSize,
+		DB:       ins.DB,
 	}
 
 	if ins.UseTLS {
